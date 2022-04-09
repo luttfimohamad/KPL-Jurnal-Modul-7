@@ -10,6 +10,8 @@ namespace modul7_1302204066
     {
         static void Main(string[] args)
         {
+            BankTransferConfig config = new BankTransferConfig();
+            config.Transfer();
         }
     }
 }
